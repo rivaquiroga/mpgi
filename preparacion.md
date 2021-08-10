@@ -1,4 +1,4 @@
-# Preparación
+# Preparación para la primera parte del curso
 
 A continuación encontrarás las indicaciones sobre cómo preparar tu computador y tu espacio de trabajo para el curso.
 
@@ -6,7 +6,7 @@ A continuación encontrarás las indicaciones sobre cómo preparar tu computador
 
 ## Instalación de R y RStudio + RStudio Cloud
 
-En este curso utilizaremos el lenguaje de programación R a través de una plataforma que facilita su uso: RStudio. RStudio es un IDE, es decir, un *Entorno de Desarrollo Integrado* (IDE es el acrónimo de *Integrated Development Environment*). Esto quiere decir que RStudio es una aplicación que nos entrega herramientas para hacer más fácil el desarrollo de proyectos usando R.
+En la primera parte de este curso utilizaremos el lenguaje de programación R a través de una plataforma que facilita su uso: RStudio. RStudio es un IDE, es decir, un *Entorno de Desarrollo Integrado* (IDE es el acrónimo de *Integrated Development Environment*). Esto quiere decir que RStudio es una aplicación que nos entrega herramientas para hacer más fácil el desarrollo de proyectos usando R.
 
 Hay dos maneras de utilizarlo: en la nube o instalar todo localmente. Ambas tienen ventajas y desventajas:
 
@@ -17,7 +17,7 @@ Hay dos maneras de utilizarlo: en la nube o instalar todo localmente. Ambas tien
 
 **RStudio en tu computador**
 
-- *Ventajas*: no necesitas conexión a internet para trabajar (pero sí para instalar "paquetes" -ya veremos qué son los paquetes). También es más intuitivo trabajar con los archivos que están en tu computador (tanto para leerlos como para crear archivos nuevos).
+- *Ventajas*: no necesitas conexión a internet para trabajar (pero sí para instalar "paquetes"). También es más intuitivo trabajar con los archivos que están en tu computador (tanto para leerlos como para crear archivos nuevos).
 - *Desventajas*: implica instalar cosas. Ese proceso debería ser sencillo; sin embargo, cada computador es distinto y a veces es posible encontrarse con problemas. De todos modos, nunca serás la primera persona en haber tenido un problema, así que suele ser fácil encontrar una solución en internet.
 
 A continuación mostraremos el paso a paso para ambas opciones. Para la primera sesión es necesario que tengas todo instalado ya en tu computador. La sugerencia es que crees también una cuenta en RStudio Cloud como respaldo.
@@ -35,13 +35,13 @@ Puedes descargar R desde https://cran.r-project.org/. Debes elegir la opción qu
 <img src="imagenes/cran.png" width="600"/>
 </p>
 
-Si utilizas Windows, te preguntará qué es lo que quieres instalar. Selecciona "base".
+Si utilizas Windows, te preguntará qué es lo que quieres instalar. Selecciona "base". Luego de seguir los pasos de instalación, instala "Rtools" (el cuarto enlace de este mismo menú).
 
 <p align="center">
 <img src="imagenes/windows.png" width="600"/>
 </p>
 
-En el caso de Mac, elige la primera opción que aparece bajo "Latest release", es decir, "R-4.0.4.pkg (notarized and signed)".
+En el caso de Mac, elige la primera opción que aparece bajo "Latest release", es decir, "R-4.1.0.pkg (notarized and signed)".
 
 Luego, sigue los pasos de instalación, tal como lo haces con cualquier programa.
 
@@ -71,7 +71,7 @@ Si quedó todo bien instalado, cuando abras RStudio deberías ver algo parecido 
 <img src="imagenes/rstudio.png" width="600"/>
 </p>
 
-A lo largo del curso usaremos una versión reciente de R y RStudio, así que si tienes instalada una versión previa, puede que algunas cosas se vean un poco distintas. Versiones de R anteriores a la 3.6 harán que algunas cosas no funcionen, por lo que si ese es tu caso, mejor actualizar todo. La última versión de R es la 4.0.4 y la última de RStudio la 1.4.
+A lo largo del curso usaremos una versión reciente de R y RStudio, así que si tienes instalada una versión previa, puede que algunas cosas se vean un poco distintas. Versiones de R anteriores a la 3.6 harán que algunas cosas no funcionen, por lo que si ese es tu caso, mejor actualizar todo. La última versión de R es la 4.1.0 y la última de RStudio la 1.4.
 
 **IMPORTANTE:** Si te encuentras con algún error durante este proceso, lo más probabable es que sea por alguna configuración de tu sistema operativo. En ese caso, la mejor manera de buscar una solución es copiar el error que arroja R, pegarlo en tu motor de búsqueda favorito y ver cómo alguien que se enfrentó a eso antes lo resolvió.
 Si por alguna razón no logras resolver los problemas de instalación antes de la primera clase, no te preocupes. Al final de esa clase habrá un espacio para resolver problemas de instalación, en caso de que te hayas encontrado con alguno. Durante la primera sesión puedes utilizar la versión en la nube de RStudio, así que si algo no funciona, para ese primer día lo más importante sería el siguiente paso.
@@ -104,7 +104,7 @@ Una vez que hayas creado una cuenta, verás algo así. Este es tu espacio de tra
 
 ## Prepara tu espacio de trabajo
 
-Este es un curso práctico. En las sesiones de clases escribiremos "código en vivo", es decir, mostraremos todo el proceso de escritura del código. Lo ideal es que vayas replicando en tu computador todo lo que hagamos. Para ello, es necesario que pienses en alguna configuración de pantalla que te permita ir mirando lo que hacemos en Zoom y replicándolo en RStudio.  
+Este es un curso eminentemente práctico. En casi todas las sesiones de clases escribiremos "código en vivo", es decir, mostraremos todo el proceso de escritura del código. O mostraremos paso a paso cómo utilizar algún software. Lo ideal es que vayas replicando en tu computador todo lo que hagamos. Para ello, es necesario que pienses en alguna configuración de pantalla que te permita ir mirando lo que hacemos en Zoom y replicándolo en tu computador.  
 
 A continuación hay algunas opciones:
 
